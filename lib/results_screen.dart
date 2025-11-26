@@ -5,7 +5,7 @@ import 'package:quiz/questions_summary/questions_summary.dart';
 
 
 class ResultsScreen extends StatelessWidget {
-  const ResultsScreen(this.chosenAnswers, {super.key});
+  const ResultsScreen(this.chosenAnswers,this.restartQuiz, {super.key});
 
    final List<String> chosenAnswers;
 
@@ -25,7 +25,7 @@ class ResultsScreen extends StatelessWidget {
     return summary;
   }
 
-   //final void Function() restartQuiz;
+   final void Function() restartQuiz;
    
 
   @override
@@ -52,7 +52,7 @@ class ResultsScreen extends StatelessWidget {
               SizedBox(height: 30,),
               QuestionsSummary(getSummaryData()),
               SizedBox(height: 30,),
-              TextButton(onPressed: (){}, child: Text('Restart Quiz!'))
+              TextButton(onPressed: (){restartQuiz();}, child: Text('Restart Quiz!'))
         ],)
       ),
     ); 

@@ -40,6 +40,15 @@ void switchScreen(){
 
     });
 }
+ void restartQuiz() {
+    setState(() {
+      selectedAnswer = [];         
+      activeScreen = StartScreen(  
+        switchScreen,
+        colors: [Color.fromARGB(255, 202, 182, 206), Colors.white],
+      );
+    });
+  }
 
 
 @override
