@@ -1,16 +1,13 @@
-# quiz
 
-A new Flutter project.
+Flutter Quiz App: A Software Configuration Management Project
 
-## Getting Started
+This repository hosts a mobile quiz application built using Flutter and Dart. The primary purpose of this project is twofold:
+Educational Tool: To provide an interactive multiple-choice quiz experience focused on testing user knowledge of the Flutter framework.
+Software Configuration Management (SCM) Demonstration: To demonstrate adherence to professional SCM practices using Git and GitHub, fulfilling the requirements for the SWE 442 course. This includes best practices in branching, merging, conflict resolution, and release tagging.
 
-This project is a starting point for a Flutter application.
+Application Features
+The application in its current state (v1.0) includes the fundamental components required for a functional quiz:
+Question Screen: Displays a question and a list of answer options.
+Answer Handling: Captures user input when an answer is selected.
+Results Screen: A placeholder to display the outcome of the quiz.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
