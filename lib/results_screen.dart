@@ -52,15 +52,9 @@ class ResultsScreen extends StatelessWidget {
               SizedBox(height: 30,),
               QuestionsSummary(getSummaryData()),
               SizedBox(height: 30,),
-<<<<<<< HEAD
-              TextButton(onPressed: (){restartQuiz();}, child: Text('Restart Quiz!'))
-        ],)
-      ),
-    ); 
-  }
-=======
               ElevatedButton.icon(
                 onPressed: () {
+                  restartQuiz();
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color.fromARGB(255, 100, 20, 180),
@@ -71,10 +65,9 @@ class ResultsScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                 ),
                 icon: const Icon(Icons.refresh),
-                label: const Text('Restart Quiz!'),),],)
-              ),
-            ); 
+                label: const Text('Restart Quiz!'),),],
+              ),),
+            );
           }
->>>>>>> feature/resultsUIenhancement
 
 }
